@@ -1,0 +1,26 @@
+{
+	"1": {
+		"imageUrl": "/projects/foto-kalendare.png",
+		"url": "https://calendare.rostiapp.cz/",
+		"title": "Vytvořte si fotokalendář online",
+		"description": "Webová aplikace na tvorbu fotokalendářů pro firmu Production co. vytvořená za pomocí Next js, Prisma a Typescriptu."
+	},
+	"2": {
+		"imageUrl": "/projects/7ma.png",
+		"url": "https://7ma.cz/",
+		"title": "7ma.cz solární systémy a fotovoltaiky",
+		"description": "Web pro společnost 7ma, s.r.o. s e-shopem, která je lídrem v oblasti solárních systémů, poskytuje komplexní poradenství, spolehlivý servis a prodej."
+	},
+	"3": {
+		"imageUrl": "/projects/autaodhonzy.png",
+		"url": "https://www.autaodhonzy.cz/",
+		"title": "Designový web pro dovozce aut",
+		"description": "autaodhonzy.cz je velmi disignově zaměřený web, postavený na Divi, na kterém jsem spolupracoval a vytvářel webu design."
+	},
+	"4": {
+		"imageUrl": "/projects/proprofit.png",
+		"url": "https://proprofit.cz/",
+		"title": "Web pro odborníky na právo a ekonomii Schejbal & Partners",
+		"description": "Mini page pro Schejbal & Partners se speciální funkcí přizpůsobení webu pro speciální uživatle."
+	}
+}
