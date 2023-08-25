@@ -35,7 +35,7 @@ function Home() {
 				<p className="text-base sm:text-3xl">tvorba webů / web design</p>
 			</h1>
 			<Image
-				className="absolute top-[20vh] right-0 sm:top-[10vh] sm:right-[10vw] -z-10 w-[70vmin] h-[70vmin]"
+				className="absolute top-32 right-0 sm:top-[10vh] sm:right-[10vw] -z-10 w-[70vmin] h-[70vmin]"
 				src="/mid-tri.svg"
 				width={500}
 				height={500}
