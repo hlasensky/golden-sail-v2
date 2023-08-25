@@ -33,13 +33,16 @@ function About() {
 				<p className="sm:mb-4 tracking-wide">o mě</p>
 				<Spacer />
 			</h2>
-			<div className="mx-auto w-[70vw] text-justify sm:text-left sm:pl-6 text-base sm:text-2xl" ref={ref}>
+			<div className="mx-auto w-[70vw] text-justify sm:text-left sm:pl-6 text-base sm:text-2xl">
 				<Balancer>
 					Jmenuji se <b>Tomáš Hlásenský</b> a věnuji se tvorbě webových stránek
 					<span className="text-gold">.</span> Jsem schopný a zodpovědný student, který
 					touží po nových zkušenostech a znalostech<span className="text-gold">.</span>
 					Mám vynikající komunikační dovednosti
-					<span className="text-gold">,</span> jsem pracovitý a zároveň nezávislý
+					<span ref={ref} className="text-gold">
+						,
+					</span>{" "}
+					jsem pracovitý a zároveň nezávislý
 					<span className="text-gold">.</span> Rád pracuji v týmu
 					<span className="text-gold">,</span> ale stejně tak si užívám práci na vlastní
 					pěst<span className="text-gold">.</span>

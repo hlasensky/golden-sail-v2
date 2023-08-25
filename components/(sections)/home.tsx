@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useContext, useEffect, useRef } from "react";
 import Spacer from "../spacer";
@@ -16,7 +16,7 @@ function Home() {
 	}, [isVisible, setActiveSection]);
 
 	return (
-		<div  id="home" className="mb-[25vw] sm:min-h-[90vh] ">
+		<div id="home" className="mb-[15vh] sm:mb-[25vh] ">
 			<Image
 				className="m-[4vmin] w-14 h-14 sm:w-24 sm:h-24"
 				src="/logo.svg"
