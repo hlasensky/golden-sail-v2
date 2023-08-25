@@ -18,7 +18,6 @@ export default function Email() {
 	return (
 		<form
 			className="flex flex-col gap-3 my-4 "
-			action={sendEmail}
 			name="contact"
 			method="POST"
 			data-netlify="true"
