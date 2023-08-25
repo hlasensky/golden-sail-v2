@@ -44,7 +44,18 @@ function Contact() {
 							"https://www.linkedin.com/in/tom%C3%A1%C5%A1-hl%C3%A1sensk%C3%BD-36572a215/"
 						}
 					/>
-					<Socials icon={"./file.svg"} text={"IČ: 17395429"} url={"https://rejstrik-firem.kurzy.cz/zivnostnik/aG-UrJmak6w="} />
+					<Socials
+						icon={"./file.svg"}
+						text={"IČ: 17395429"}
+						url={"https://apl.czso.cz/res/detail?ico=17395429"}
+					/>
+					<Socials
+						icon={"./file.svg"}
+						text={
+							"Fyzická osoba zapsaná v Živnostenském rejstříku u Městského úřadu Vyškov od 3. 8. 2022"
+						}
+						url={"https://apl.czso.cz/res/detail?ico=17395429"}
+					/>
 				</div>
 
 				<Email />
