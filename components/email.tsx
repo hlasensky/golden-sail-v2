@@ -15,7 +15,8 @@ export default function Email() {
 	const inputCss = "sm:text-lg py-2 px-1 sm:w-4/5 bg-whiteBlue/0 border-b-[2px] autofill:bg-whiteBlue/0 outline-none border-whiteBlue/50 focus:border-gold";
 
 	return (
-		<form className="flex flex-col gap-3 my-4 " action={sendEmail} name="contact">
+		// @ts-expect-error
+		<form className="flex flex-col gap-3 my-4 " action={sendEmail} netlify name="contact">
 			<input
 				required
 				className={inputCss}
