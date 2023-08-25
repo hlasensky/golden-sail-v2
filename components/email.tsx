@@ -12,11 +12,17 @@ export default function Email() {
 		console.log(body);
 	}
 
-	const inputCss = "sm:text-lg py-2 px-1 sm:w-4/5 bg-whiteBlue/0 border-b-[2px] autofill:bg-whiteBlue/0 outline-none border-whiteBlue/50 focus:border-gold";
+	const inputCss =
+		"sm:text-lg py-2 px-1 sm:w-4/5 bg-whiteBlue/0 border-b-[2px] autofill:bg-whiteBlue/0 outline-none border-whiteBlue/50 focus:border-gold";
 
 	return (
-		// @ts-expect-error
-		<form className="flex flex-col gap-3 my-4 " action={sendEmail} method="POST" netlify name="contact">
+		<form
+			className="flex flex-col gap-3 my-4 "
+			action={sendEmail}
+			name="contact"
+			method="POST"
+			data-netlify="true"
+		>
 			<input
 				required
 				className={inputCss}
@@ -43,7 +49,12 @@ export default function Email() {
 			></textarea>
 
 			<br />
-			<button className="transition-all flex gap-2 items-center bg-lighterLighterBlue hover:bg-lighterLighterBlue/50 w-fit px-4 py-1 rounded-lg" type="submit">
+			<input type="hidden" name="form-name" value="contact" />
+
+			<button
+				className="transition-all flex gap-2 items-center bg-lighterLighterBlue hover:bg-lighterLighterBlue/50 w-fit px-4 py-1 rounded-lg"
+				type="submit"
+			>
 				poslat
 				<Image width={25} height={25} src="./arrow.svg" className="arrow" alt="" />
 			</button>
