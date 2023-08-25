@@ -16,7 +16,7 @@ export default function Email() {
 
 	return (
 		// @ts-expect-error
-		<form className="flex flex-col gap-3 my-4 " action={sendEmail} netlify name="contact">
+		<form className="flex flex-col gap-3 my-4 " action={sendEmail} method="POST" netlify name="contact">
 			<input
 				required
 				className={inputCss}
