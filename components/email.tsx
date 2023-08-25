@@ -15,7 +15,7 @@ export default function Email() {
 	const inputCss = "sm:text-lg py-2 px-1 sm:w-4/5 bg-whiteBlue/0 border-b-[2px] autofill:bg-whiteBlue/0 outline-none border-whiteBlue/50 focus:border-gold";
 
 	return (
-		<form className="flex flex-col gap-3" action={sendEmail} name="contact">
+		<form className="flex flex-col gap-3 my-4 " action={sendEmail} name="contact">
 			<input
 				required
 				className={inputCss}
@@ -42,10 +42,9 @@ export default function Email() {
 			></textarea>
 
 			<br />
-			<button className="submit" type="submit">
-				<div className="submitBall"></div>
-				<Image width={50} height={50} src="./arrow.svg" className="arrow" alt="" />
+			<button className="transition-all flex gap-2 items-center bg-lighterLighterBlue hover:bg-lighterLighterBlue/50 w-fit px-4 py-1 rounded-lg" type="submit">
 				poslat
+				<Image width={25} height={25} src="./arrow.svg" className="arrow" alt="" />
 			</button>
 		</form>
 	);

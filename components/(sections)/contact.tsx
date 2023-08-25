@@ -2,7 +2,6 @@
 
 import React, { useContext, useEffect, useRef } from "react";
 import Spacer from "../spacer";
-import Image from "next/image";
 import { IndexContext } from "@/app/indexContext";
 import useOnScreen from "@/hooks/onScreen";
 import Socials from "../socials";

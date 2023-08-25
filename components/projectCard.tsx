@@ -31,7 +31,7 @@ function ProjectCard({ value }: Props) {
 					href={value.url}
 					target="_blank"
 					rel="noopener noreferrer"
-					className=" inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-lighterLighterBlue rounded-lg hover:bg-lighterLighterBlue/80 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+					className="transition-all inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-lighterLighterBlue rounded-lg hover:bg-lighterLighterBlue/50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
 				>
 					Podívat se na projekt
 					<svg
