@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Page() {
@@ -24,16 +25,16 @@ function Page() {
 					</h5>
 				</div>
 				<div className="p-6 pt-0">
-					<a
+					<Link
 						className="!font-medium !text-blue-gray-900 !transition-colors hover:!text-lighterLighterBlue"
-						href="#"
+						href="/"
 					>
 						<button
 							className="flex select-none items-center gap-2 rounded-lg py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-lighterLighterBlue transition-all hover:bg-lightext-lighterLighterBlue/10 active:bg-lightext-lighterLighterBlue/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
 							type="button"
 							data-ripple-dark="true"
 						>
-							Learn More
+							Zpět na stránky
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								fill="none"
@@ -50,7 +51,7 @@ function Page() {
 								></path>
 							</svg>
 						</button>
-					</a>
+					</Link>
 				</div>
 			</div>
 		</div>
