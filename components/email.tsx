@@ -12,7 +12,7 @@ export default function Email() {
 		console.log(body);
 	}
 
-	const inputCss = "text-lg py-2 px-1 w-4/5 bg-whiteBlue/0 border-b-[2px] autofill:bg-whiteBlue/0 outline-none border-whiteBlue/50 focus:border-gold";
+	const inputCss = "sm:text-lg py-2 px-1 sm:w-4/5 bg-whiteBlue/0 border-b-[2px] autofill:bg-whiteBlue/0 outline-none border-whiteBlue/50 focus:border-gold";
 
 	return (
 		<form className="flex flex-col gap-3" action={sendEmail} name="contact">

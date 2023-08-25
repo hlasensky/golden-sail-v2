@@ -16,7 +16,7 @@ function Home() {
 	}, [isVisible, setActiveSection]);
 
 	return (
-		<div  id="home" className="min-h-[50vh] sm:min-h-[90vh] ">
+		<div  id="home" className="mb-[25vw] sm:min-h-[90vh] ">
 			<Image
 				className="m-[4vmin] w-14 h-14 sm:w-24 sm:h-24"
 				src="/logo.svg"
@@ -26,7 +26,7 @@ function Home() {
 			/>
 			<h1
 				ref={ref}
-				className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl sm:pt-9 mx-auto w-[70vw]"
+				className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl sm:pt-9 mx-auto w-[70vw]"
 				itemProp="name"
 			>
 				<p className="sm:mb-4 tracking-wide">TOMÁŠ</p>
@@ -35,7 +35,7 @@ function Home() {
 				<p className="text-base sm:text-3xl">tvorba webů / web design</p>
 			</h1>
 			<Image
-				className="absolute top-10 right-0 sm:top-[10vh] sm:right-[10vw] -z-10 w-[70vmin] h-[70vmin]"
+				className="absolute top-[20vh] right-0 sm:top-[10vh] sm:right-[10vw] -z-10 w-[70vmin] h-[70vmin]"
 				src="/mid-tri.svg"
 				width={500}
 				height={500}
