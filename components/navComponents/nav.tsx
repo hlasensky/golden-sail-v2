@@ -11,7 +11,7 @@ export default function Nav() {
 	const shortLine = "bg-whiteBlue/50 h-10 w-[2px] rounded";
 	const textNav = "sm:text-2xl [writing-mode:vertical-rl] transform -scale-100";
 	return (
-		<nav className="fixed sm:mr-2  h-screen  right-0 flex flex-col justify-center items-center gap-4  py-[5%] top-1/2 -translate-y-1/2">
+		<nav className="fixed sm:mr-2  h-[100svh]  right-0 flex flex-col justify-center items-center gap-4  py-[5%] top-1/2 -translate-y-1/2">
 			<span className={longLine}></span>
 			<div className={`${textNav} ${activeSection === "home" ? "" : "text-whiteBlue/50"}`}>
 				<Link href="#home">domů</Link>
