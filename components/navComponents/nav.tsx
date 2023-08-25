@@ -14,23 +14,23 @@ export default function Nav() {
 		<nav className="fixed sm:mr-2  h-[100svh]  right-0 flex flex-col justify-center items-center gap-4  py-[5%] top-1/2 -translate-y-1/2">
 			<span className={longLine}></span>
 			<div className={`${textNav} ${activeSection === "home" ? "" : "text-whiteBlue/50"}`}>
-				<Link target="_self" href="#home">
+				<a target="_self" href="#home">
 					domů
-				</Link>
+				</a>
 			</div>
 			<span className={shortLine}></span>
 			<div className={`${textNav} ${activeSection === "about" ? " " : "text-whiteBlue/50"}`}>
-				<Link target="_self" href="#about">
+				<a target="_self" href="#about">
 					o&nbsp;mě
-				</Link>
+				</a>
 			</div>
 			<span className={shortLine}></span>
 			<div
 				className={`${textNav} ${activeSection === "projects" ? " " : "text-whiteBlue/50"}`}
 			>
-				<Link target="_self" href="#projects">
+				<a target="_self" href="#projects">
 					projekty
-				</Link>
+				</a>
 			</div>
 			<span className={shortLine}></span>
 			<div
