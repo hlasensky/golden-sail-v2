@@ -14,23 +14,31 @@ export default function Nav() {
 		<nav className="fixed sm:mr-2  h-[100svh]  right-0 flex flex-col justify-center items-center gap-4  py-[5%] top-1/2 -translate-y-1/2">
 			<span className={longLine}></span>
 			<div className={`${textNav} ${activeSection === "home" ? "" : "text-whiteBlue/50"}`}>
-				<Link href="https://thlasensky.netlify.app/#home">domů</Link>
+				<Link target="_self" href="#home">
+					domů
+				</Link>
 			</div>
 			<span className={shortLine}></span>
 			<div className={`${textNav} ${activeSection === "about" ? " " : "text-whiteBlue/50"}`}>
-				<Link href="https://thlasensky.netlify.app/#about">o&nbsp;mě</Link>
+				<Link target="_self" href="#about">
+					o&nbsp;mě
+				</Link>
 			</div>
 			<span className={shortLine}></span>
 			<div
 				className={`${textNav} ${activeSection === "projects" ? " " : "text-whiteBlue/50"}`}
 			>
-				<Link href="https://thlasensky.netlify.app/#projects">projekty</Link>
+				<Link target="_self" href="#projects">
+					projekty
+				</Link>
 			</div>
 			<span className={shortLine}></span>
 			<div
 				className={`${textNav} ${activeSection === "contact" ? " " : "text-whiteBlue/50"}`}
 			>
-				<Link href="https://thlasensky.netlify.app/#contact">kontakt</Link>
+				<Link target="_self" href="#contact">
+					kontakt
+				</Link>
 			</div>
 			<span className={longLine}></span>
 		</nav>
