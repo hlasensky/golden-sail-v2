@@ -57,7 +57,6 @@ function Contact() {
 						url={"https://apl.czso.cz/res/detail?ico=17395429"}
 					/>
 				</div>
-
 				<Email />
 			</div>
 		</div>

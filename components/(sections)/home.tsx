@@ -31,7 +31,7 @@ function Home() {
 			>
 				<p className="sm:mb-4 tracking-wide">TOMÁŠ</p>
 				<p className="tracking-wide">HLÁSENSKÝ</p>
-				<Spacer />
+				<p className="relative"><Spacer not_anim={true} /></p>
 				<p className="text-base sm:text-3xl">tvorba webů / web design</p>
 			</h1>
 			<Image
