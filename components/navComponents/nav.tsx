@@ -36,9 +36,9 @@ export default function Nav() {
 			<div
 				className={`${textNav} ${activeSection === "contact" ? " " : "text-whiteBlue/50"}`}
 			>
-				<Link target="_self" href="#contact">
+				<a target="_self" href="#contact">
 					kontakt
-				</Link>
+				</a>
 			</div>
 			<span className={longLine}></span>
 		</nav>
