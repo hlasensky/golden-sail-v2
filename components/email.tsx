@@ -20,6 +20,7 @@ export default function Email() {
 			className="flex flex-col gap-3 my-4 "
 			name="contact"
 			method="POST"
+			action="success"
 			data-netlify="true"
 		>
 			<input
