@@ -4,7 +4,7 @@ import path from "path";
 
 export async function GET() {
 	const pathFile = path.join(__dirname.split("app")[0], "app", "lib", "projects.json");
-	const files = fs.readdir(__dirname.split(".next")[0])
+	const files = await fs.readdir(__dirname.split(".next")[0])
 	console.log("dirmaneeeeee",__dirname)
 	console.log(files)
 	try {
