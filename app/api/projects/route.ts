@@ -4,7 +4,8 @@ import path from "path";
 
 export async function GET() {
 	const pathFile = path.join(__dirname.split(".next")[0], "lib", "projects.json");
-
+	console.log(__dirname)
+	console.log(pathFile)
 	try {
 		const file = await fs.readFile(pathFile);
 
