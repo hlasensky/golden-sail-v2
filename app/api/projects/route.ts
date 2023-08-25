@@ -3,7 +3,7 @@ import fs from "fs/promises"
 import path from "path";
 
 export async function GET() {
-	const pathFile = path.join(__dirname.split(".next")[0], "lib", "projects.json");
+	const pathFile = path.join(__dirname.split("app")[0], "lib", "projects.json");
 	console.log(__dirname)
 	console.log(pathFile)
 	try {
