@@ -19,9 +19,9 @@ function ProjectCard({ value }: Props) {
 				alt=""
 			/>
 			<div className="p-5 ">
-				<h4 className="mb-2 sm:text-2xl font-bold tracking-tight text-white">
+				<h3 className="mb-2 sm:text-2xl font-bold tracking-tight text-white">
 					<Balancer>{value.title}</Balancer>
-				</h4>
+				</h3>
 				<div className="rounded-3xl mt-2 mb-3 w-1/3 h-[1px] bg-gold"></div>
 				<p className="text-sm sm:text-base mb-4 font-normal text-gray-400">
 					<Balancer>{value.description}</Balancer>

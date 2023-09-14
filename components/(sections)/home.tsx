@@ -32,7 +32,7 @@ function Home() {
 				<p className="sm:mb-4 tracking-wide">TOMÁŠ</p>
 				<p className="tracking-wide">HLÁSENSKÝ</p>
 				<p className="relative"><Spacer not_anim={true} /></p>
-				<p className="text-base sm:text-3xl">tvorba webů / web design</p>
+				<p className="text-base sm:text-3xl"> tvorba webů / web design</p>
 			</h1>
 			<Image
 				className="absolute top-32 right-0 sm:top-[10vh] sm:right-[10vw] -z-10 w-[70vmin] h-[70vmin]"
