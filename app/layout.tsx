@@ -8,12 +8,13 @@ import { IndexContextProvider } from "./indexContext";
 const mont = Montserrat({ subsets: ["latin"], weight: "300" });
 
 export const metadata: Metadata = {
-	title: "Portfolio - Tomáš Hlásenský - Tvorba Webových Stránek a Design",
+	title: "Portfolio - Tomáš Hlásenský - Tvorba Webových Stránek a Designu",
 	description:
 		"Vítejte na portfoliu Tomáše Hlásenského. Specializuji se na tvorbu webových stránek s důrazem na inovativní design. Prozkoumejte mé práce a projekty.",
 	keywords: "Tomáš Hlásenský, webové stránky, design, portfolio, Next.js, tvorba webů",
 	authors: {name:"Tomáš Hlásenský" },
 	openGraph: {
+		siteName: "Tworba webů Tomáš Hlásenský",
 		title: "Portfolio - Tomáš Hlásenský - Tvorba Webových Stránek a Design",
 		description:
 			"Vítejte na portfoliu Tomáše Hlásenského. Specializuji se na tvorbu webových stránek s důrazem na inovativní design. Prozkoumejte mé práce a projekty.",
