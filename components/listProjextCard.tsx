@@ -15,6 +15,7 @@ type ProjectsObj = {
 
 function ListProjectCard() {
 	const [projects, setProjects] = useState<ProjectsObj>({});
+	const [xy, setXy] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
 
 	useEffect(() => {
 		const fetchProjects = async () => {
@@ -31,13 +32,20 @@ function ListProjectCard() {
 		fetchProjects();
 	}, []);
 
+	const handleMove = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+		const rect = e.currentTarget.getBoundingClientRect();
+		setXy({ x: Math.floor(e.clientX - rect.left), y: Math.floor(e.clientY - rect.top) });
+	};
+	
+
 	return (
-		<div className="px-[13vw] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 grid-flow-row justify-center mb-[10vh]">
+		<div onMouseMove={handleMove} className="px-[13vw] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 grid-flow-row justify-center mb-[10vh]">
 			{Object.keys(projects).map((projectId: string) => {
                 const id = Number(projectId);
 				return (
 					<ProjectCard
-                        key={id}
+						key={id}
+						xy={xy}
                         value={projects[id]}
 					/>
 				);
