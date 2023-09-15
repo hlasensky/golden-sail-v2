@@ -65,7 +65,7 @@ function ProjectCard({ value, xy }: Props) {
 			style={{
 				background: styleGlob,
 			}}
-			className="p-[3px] rounded-lg sm:bg-lighterBlue"
+			className=" rounded-lg p-0 sm:p-[3px] border-[2px] border-gray-700 sm:border-[0px] "
 		>
 			<div
 				onMouseMove={(e) => handleMove(e)}
@@ -74,7 +74,7 @@ function ProjectCard({ value, xy }: Props) {
 				style={{
 					background: styleLoc,
 				}}
-				className={`backdrop-blur-lg transition-opacity relative mx-auto max-w-sm rounded-lg shadow w-full h-full`}
+				className={` transition-opacity relative mx-auto max-w-sm rounded-[11px] shadow w-full h-full`}
 			>
 				<Image
 					className="rounded-t-lg w-full h-auto"
