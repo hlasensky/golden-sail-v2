@@ -46,7 +46,7 @@ export default function Email() {
 				type="submit"
 			>
 				poslat
-				<Image width={25} height={25} src="./arrow.svg" className="arrow" alt="" />
+				<Image width={20} height={20} src="./arrow.svg" className="arrow" alt="" />
 			</button>
 		</form>
 	);

@@ -65,7 +65,7 @@ function ProjectCard({ value, xy }: Props) {
 			style={{
 				background: styleGlob,
 			}}
-			className=" rounded-lg p-0 sm:p-[3px] border-[2px] border-gray-700 sm:border-[0px] "
+			className="w-fit rounded-lg border-[2px] border-gray-700 sm:border-[0px] "
 		>
 			<div
 				onMouseMove={(e) => handleMove(e)}
@@ -74,7 +74,7 @@ function ProjectCard({ value, xy }: Props) {
 				style={{
 					background: styleLoc,
 				}}
-				className={` transition-opacity relative mx-auto max-w-sm rounded-[11px] shadow w-full h-full`}
+				className={` transition-all relative mx-auto max-w-sm rounded-[11px] shadow w-full h-full`}
 			>
 				<Image
 					className="rounded-t-lg w-full h-auto"
@@ -96,7 +96,7 @@ function ProjectCard({ value, xy }: Props) {
 						href={value.url}
 						target="_blank"
 						rel="noopener noreferrer"
-						className="transition-all inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-lighterLighterBlue rounded-lg hover:bg-lighterLighterBlue/50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+						className="transition-all inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-lighterLighterBlue rounded-lg hover:bg-lighterBlue/80 focus:ring-4 focus:outline-none focus:ring-blue-300 "
 					>
 						Podívat se na projekt
 						<svg
