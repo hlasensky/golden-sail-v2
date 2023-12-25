@@ -1,7 +1,7 @@
 {
 	"1": {
 		"imageUrl": "/projects/foto-kalendare.png",
-		"url": "https://calendare.rostiapp.cz/",
+		"url": "https://vytvor-kalendar.cz/",
 		"title": "Vytvořte si fotokalendář online",
 		"description": "Webová aplikace na tvorbu fotokalendářů pro firmu Production co. vytvořená za pomocí Next js, Prisma a Typescriptu."
 	},
