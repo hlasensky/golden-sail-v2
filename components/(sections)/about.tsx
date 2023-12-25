@@ -35,24 +35,44 @@ function About() {
 			</h2>
 			<div className="mx-auto w-[70vw] text-justify sm:text-left sm:pl-6 text-base sm:text-2xl">
 				<Balancer>
-					Jmenuji se <b>Tomáš Hlásenský</b> a věnuji se tvorbě webových stránek
-					<span className="text-gold">.</span> Jsem schopný a zodpovědný student, který
-					touží po nových zkušenostech a znalostech<span className="text-gold">.</span>
-					Mám vynikající komunikační dovednosti
+					Jsem Tomáš Hlásenský
+					<span className="text-gold">
+						<span className="text-gold">,</span>
+					</span>{" "}
+					vášnivý tvůrce webových stránek s vynikajícími komunikačními dovednostmi a
+					pevným závazkem k dosahování vynikajících výsledků
+					<span className="text-gold">.</span> Jako schopný a zodpovědný student hledám
+					nové zkušenosti a znalosti<span className="text-gold">,</span> které mohu
+					přinést do každého projektu<span className="text-gold">.</span>
+					Mé dovednosti nejen spočívají v designu a tvorbě webových stránek
 					<span ref={ref} className="text-gold">
 						,
 					</span>{" "}
-					jsem pracovitý a zároveň nezávislý
-					<span className="text-gold">.</span> Rád pracuji v týmu
-					<span className="text-gold">,</span> ale stejně tak si užívám práci na vlastní
-					pěst<span className="text-gold">.</span>
-					Mé dovednosti nejenže spočívají v designu a tvorbě stránek
-					<span className="text-gold">,</span> ale také v schopnosti tyto stránky
-					efektivně koncipovat<span className="text-gold">,</span> tak aby korespondovaly
-					s identitou a posláním projektů<span className="text-gold">,</span> na kterých
-					pracuji<span className="text-gold">.</span> S vášní ke každému projektu
-					přistupuji<span className="text-gold">,</span> s cílem nejen splnit očekávání
-					<span className="text-gold">,</span> ale překročit je
+					ale také v efektivní koncepci těchto stránek<span className="text-gold">,</span>{" "}
+					aby plnily identitu a poslání projektů<span className="text-gold">,</span> na
+					kterých pracuji
+					<span className="text-gold">.</span> S radostí pracuji v týmu
+					<span className="text-gold">,</span> kde sdílím své nápady a zároveň si užívám
+					samostatnou práci<span className="text-gold">,</span> přičemž se vždy snažím
+					překročit očekávání<span className="text-gold">.</span>
+					Mým hlavním zaměřením je vývoj webových stránek pomocí moderního frameworku Next
+					<span className="text-gold">.</span>js<span className="text-gold">.</span> Tato
+					technologie mi umožňuje efektivně vytvářet stránky s vylepšeným výkonem
+					<span className="text-gold">,</span> SEO optimalizací a skvělým uživatelským
+					zážitkem<span className="text-gold">.</span> I přesto
+					<span className="text-gold">,</span> že pracuji i s jinými technologiemi
+					<span className="text-gold">,</span> Next<span className="text-gold">.</span>js
+					je pro mě klíčovým nástrojem<span className="text-gold">,</span> který mi
+					umožňuje přinášet do každého projektu inovativní přístup a zaručuje technickou
+					excelenci<span className="text-gold">.</span>
+					Buďte ujištěni<span className="text-gold">,</span> že vaše webové projekty budou
+					mít nejen moderní a atraktivní design<span className="text-gold">,</span> ale
+					také budou optimalizované pro vyhledávače<span className="text-gold">,</span>{" "}
+					aby bylo dosaženo co nejlepší viditelnosti online
+					<span className="text-gold">.</span> Se mnou získáte nejen zkušeného
+					profesionála<span className="text-gold">,</span> ale také vášnivého
+					spolupracovníka<span className="text-gold">,</span> který je ochoten přinést
+					kreativní a inovativní přístup k vašim projektům
 					<span className="text-gold">.</span>
 				</Balancer>
 			</div>
