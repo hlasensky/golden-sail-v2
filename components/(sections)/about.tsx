@@ -44,7 +44,8 @@ function About() {
 					<span className="text-gold">.</span> Jako schopný a zodpovědný student hledám
 					nové zkušenosti a znalosti<span className="text-gold">,</span> které mohu
 					přinést do každého projektu<span className="text-gold">.</span>
-					
+
+					<br></br>
 					<br></br>
 
 					Mé dovednosti nejen spočívají v designu a tvorbě webových stránek
@@ -60,6 +61,7 @@ function About() {
 					překročit očekávání<span className="text-gold">.</span>
 
 					<br></br>
+					<br></br>
 
 					Mým hlavním zaměřením je vývoj webových stránek pomocí moderního frameworku Next
 					<span className="text-gold">.</span>js<span className="text-gold">.</span> Tato
@@ -72,6 +74,7 @@ function About() {
 					umožňuje přinášet do každého projektu inovativní přístup a zaručuje technickou
 					excelenci<span className="text-gold">.</span>
 
+					<br></br>
 					<br></br>
 
 					Buďte ujištěni<span className="text-gold">,</span> že vaše webové projekty budou
