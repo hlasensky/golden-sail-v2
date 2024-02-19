@@ -30,7 +30,7 @@ function About() {
 				className="flex flex-col items-center text-2xl sm:text-3xl md:text-5xl lg:text-7xl  "
 				itemProp="name"
 			>
-				<p className="sm:mb-4 tracking-wide">o mě</p>
+				<p className="sm:mb-4 tracking-wide">o mně</p>
 				<Spacer />
 			</h2>
 			<div className="mx-auto w-[70vw] text-justify sm:text-left sm:pl-6 text-base sm:text-2xl">
