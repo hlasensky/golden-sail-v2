@@ -9,7 +9,7 @@
 	"2": {
 		"imageUrl": "/projects/scervinka.png",
 		"url": "https://scervinka.cz/",
-		"title": "Stavební firma Stanislava Červinky",
+		"title": "Stavební firma Stanislav Červinka",
 		"pins": ["dev", "design"],
 		"description": "Tvorba designu a development stránek v Next js pro stavební firmu."
 	},

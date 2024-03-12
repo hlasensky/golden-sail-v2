@@ -38,12 +38,10 @@ function About() {
 					Jmenuji se Tomáš Hlásenský a jsem student a webový tvůrce a designér
 					<span className="text-gold">.</span> Neustále hledám nové zkušenosti a znalosti
 					<span className="text-gold">,</span> které mohu zúročit v nových projektech
-					<span className="text-gold">.</span>
-					Mé silné stránky zahrnují chuť se posouvat dál
+					<span className="text-gold">.</span>Mé silné stránky zahrnují chuť se posouvat dál
 					<span ref={ref} className="text-gold">
 						,
-					</span>
-					spolehlivost a snahu o dosažení cílů mých klientů
+					</span>spolehlivost a snahu o dosažení cílů mých klientů
 					<span className="text-gold">.</span>
 					<br></br>
 					<br></br>
