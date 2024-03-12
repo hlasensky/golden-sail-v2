@@ -3,24 +3,35 @@
 		"imageUrl": "/projects/foto-kalendare.png",
 		"url": "https://vytvor-kalendar.cz/",
 		"title": "Vytvořte si fotokalendář online",
-		"description": "Webová aplikace na tvorbu fotokalendářů pro firmu Production co. vytvořená za pomocí Next js, Prisma a Typescriptu."
+		"pins": ["dev"],
+		"description": "Webová aplikace na tvorbu fotokalendářů pro firmu Production co. vytvořená za pomocí Next js, Prisma a Typescriptu. S grafickým návrhem od firmy Production co."
 	},
 	"2": {
+		"imageUrl": "/projects/scervinka.png",
+		"url": "https://scervinka.cz/",
+		"title": "Stavební firma Stanislava Červinky",
+		"pins": ["dev", "design"],
+		"description": "Tvorba designu a development stránek v Next js pro stavební firmu."
+	},
+	"3": {
 		"imageUrl": "/projects/7ma.png",
 		"url": "https://7ma.cz/",
 		"title": "7ma.cz solární systémy a fotovoltaiky",
-		"description": "Web pro společnost 7ma, s.r.o. s e-shopem, která je lídrem v oblasti solárních systémů, poskytuje komplexní poradenství, spolehlivý servis a prodej."
+		"pins": ["dev"],
+		"description": "Web pro společnost 7ma, s.r.o. s e-shopem s grafickými podklady od grafika z firmy Kapsi."
 	},
-	"3": {
+	"4": {
 		"imageUrl": "/projects/autaodhonzy.png",
 		"url": "https://www.autaodhonzy.cz/",
 		"title": "Designový web pro dovozce aut",
+		"pins": ["wordpress", "design"],
 		"description": "autaodhonzy.cz je velmi disignově zaměřený web, postavený na Divi, na kterém jsem spolupracoval a vytvářel webu design."
 	},
-	"4": {
+	"5": {
 		"imageUrl": "/projects/proprofit.png",
 		"url": "https://proprofit.cz/",
+		"pins": ["dev"],
 		"title": "Web pro odborníky na právo a ekonomii Schejbal & Partners",
-		"description": "Mini page pro Schejbal & Partners se speciální funkcí přizpůsobení webu pro speciální uživatle."
+		"description": "Mini page pro Schejbal & Partners se speciální funkcí přizpůsobení webu pro speciální uživatle. Web byl tvořen s podklady od grafika firmy Kapsi a je tvořen v React js."
 	}
 }

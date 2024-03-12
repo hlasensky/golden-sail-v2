@@ -83,7 +83,13 @@ function ProjectCard({ value, xy }: Props) {
 					src={value.imageUrl}
 					alt=""
 				/>
-				<div className="p-5 ">
+				<div className="p-5 relative">
+					<div className="absolute -top-10 right-0 flex gap-1">
+						{value.pins.map((pin) => (
+							<Image alt={pin} src={`icons/${pin}.svg`} width={50} height={50} />
+						))}
+					</div>
+
 					<h3 className="mb-2 sm:text-2xl font-bold tracking-tight text-white">
 						<Balancer>{value.title}</Balancer>
 					</h3>
