@@ -14,24 +14,17 @@
 		"description": "Tvorba designu a development stránek v Next js pro stavební firmu."
 	},
 	"3": {
-		"imageUrl": "/projects/7ma.png",
-		"url": "https://7ma.cz/",
-		"title": "7ma.cz solární systémy a fotovoltaiky",
-		"pins": ["dev"],
-		"description": "Web pro společnost 7ma, s.r.o. s e-shopem s grafickými podklady od grafika z firmy Kapsi."
-	},
-	"4": {
 		"imageUrl": "/projects/autaodhonzy.png",
 		"url": "https://www.autaodhonzy.cz/",
 		"title": "Designový web pro dovozce aut",
 		"pins": ["wordpress", "design"],
 		"description": "autaodhonzy.cz je velmi disignově zaměřený web, postavený na Divi, na kterém jsem spolupracoval a vytvářel webu design."
 	},
-	"5": {
-		"imageUrl": "/projects/proprofit.png",
-		"url": "https://proprofit.cz/",
+	"4": {
+		"imageUrl": "/projects/7ma.png",
+		"url": "https://7ma.cz/",
+		"title": "7ma.cz solární systémy a fotovoltaiky",
 		"pins": ["dev"],
-		"title": "Web pro odborníky na právo a ekonomii Schejbal & Partners",
-		"description": "Mini page pro Schejbal & Partners se speciální funkcí přizpůsobení webu pro speciální uživatle. Web byl tvořen s podklady od grafika firmy Kapsi a je tvořen v React js."
+		"description": "Web pro společnost 7ma, s.r.o. s e-shopem s grafickými podklady od grafika z firmy Kapsi."
 	}
 }
