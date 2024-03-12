@@ -86,7 +86,7 @@ function ProjectCard({ value, xy }: Props) {
 				<div className="p-5 relative">
 					<div className="absolute -top-10 right-0 flex gap-1">
 						{value.pins.map((pin) => (
-							<Image alt={pin} src={`icons/${pin}.svg`} width={50} height={50} />
+							<Image key={pin} alt={pin} src={`icons/${pin}.svg`} width={50} height={50} />
 						))}
 					</div>
 
