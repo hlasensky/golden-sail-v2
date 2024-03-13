@@ -42,7 +42,7 @@ function About() {
 					dál
 					<span ref={ref} className="text-gold">
 						,
-					</span>
+					</span>{" "}
 					spolehlivost a snahu o dosažení cílů mých klientů
 					<span className="text-gold">.</span>
 					<br></br>
