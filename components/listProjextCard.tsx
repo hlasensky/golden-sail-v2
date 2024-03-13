@@ -33,18 +33,18 @@ function ListProjectCard() {
 
 				<button className="flex flex-col items-center" onClick={() => setFilter("dev")}>
 					<Image alt="dev" src={"/icons/dev.svg"} width={30} height={30} />
-					vyvinuté mnou
+					<span className="hidden sm:block">vyvinuté mnou</span>
 				</button>
 				<button className="flex flex-col items-center" onClick={() => setFilter("design")}>
 					<Image alt="design" src={"/icons/design.svg"} width={30} height={30} />
-					nadizajnované mnou
+					<span className="hidden sm:block">nadizajnované mnou</span>
 				</button>
 				<button
 					className="flex flex-col items-center"
 					onClick={() => setFilter("wordpress")}
 				>
 					<Image alt="wordpress" src={"/icons/wordpress.svg"} width={30} height={30} />
-					wordpress
+					<span className="hidden sm:block">wordpress</span>
 				</button>
 			</div>
 			<div
