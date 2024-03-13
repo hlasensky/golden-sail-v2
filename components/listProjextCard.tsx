@@ -25,7 +25,7 @@ function ListProjectCard() {
 
 	return (
 		<>
-			<div className="w-full flex justify-evenly my-4">
+			<div className="w-full flex flex-wrap justify-evenly my-4">
 				<button className="text-2xl" onClick={() => setFilter("")}>
 					{/* <Image alt="vše" src={""} width={30} height={30}/> */}
 					vše
