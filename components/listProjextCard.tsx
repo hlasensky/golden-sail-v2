@@ -37,7 +37,7 @@ function ListProjectCard() {
 				</button>
 				<button className="flex flex-col items-center" onClick={() => setFilter("design")}>
 					<Image alt="design" src={"/icons/design.svg"} width={30} height={30} />
-					<span className="hidden sm:block">nadizajnované mnou</span>
+					<span className="hidden sm:block">designované mnou</span>
 				</button>
 				<button
 					className="flex flex-col items-center"
