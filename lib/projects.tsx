@@ -35,6 +35,14 @@ export const projects: ProjectsObj = {
 			"autaodhonzy.cz je velmi disignově zaměřený web, postavený na Divi, na kterém jsem spolupracoval a vytvářel webu design.",
 	},
 	4: {
+		imageUrl: "/projects/kajukenbo.png",
+		url: "https://kajukenboczech.cz/",
+		title: "Stránka pro bojové umění Kajukenbo",
+		pins: ["dev"],
+		description:
+			"Stránky pro český spolek bojového umění kajukenbo, s administrátorským prostředím a dynamickým generováním obsahu.",
+	},
+	5: {
 		imageUrl: "/projects/7ma.png",
 		url: "https://7ma.cz/",
 		title: "7ma.cz solární systémy a fotovoltaiky",

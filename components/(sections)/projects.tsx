@@ -5,7 +5,7 @@ import Spacer from "../spacer";
 import Image from "next/image";
 import { IndexContext } from "@/app/indexContext";
 import useOnScreen from "@/hooks/onScreen";
-import ListProjextCard from "../listProjextCard";
+import ListProjectCard from "../listProjectCard";
 
 function Projects() {
 	const { setActiveSection } = useContext(IndexContext);
@@ -27,7 +27,7 @@ function Projects() {
 				</p>
 				<Spacer />
 			</h2>
-			<ListProjextCard />
+			<ListProjectCard />
 		</div>
 	);
 }
