@@ -82,7 +82,7 @@ function ProjectCard({ value, xy }: Props) {
 					width={500}
 					height={400}
 					src={value.imageUrl}
-					alt=""
+					alt={value.title}
 				/>
 				<div className="p-5 relative">
 					<div className="absolute -top-10 right-0 flex gap-1">

@@ -1,6 +1,6 @@
 import Nav from "@/components/navComponents/nav";
 import "./globals.css";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Montserrat } from "next/font/google";
 import Footer from "@/components/footerComponents/footer";
 import { IndexContextProvider } from "./indexContext";
@@ -45,9 +45,11 @@ export const metadata: Metadata = {
 		{ rel: "mask-icon", url: "/safari-pinned-tab.svg", color: "#5bbad5" },
 	],
 	manifest: "/site.webmanifest",
-	themeColor: "#000",
 };
 
+export const viewport: Viewport = {
+	themeColor: 'black',
+  }
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="cs" suppressHydrationWarning={true}>
