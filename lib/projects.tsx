@@ -43,19 +43,19 @@ export const projects: ProjectsObj = {
 			"Stránky pro český spolek bojového umění kajukenbo, s administrátorským prostředím a dynamickým generováním obsahu.",
 	},
 	5: {
+		imageUrl: "/projects/vertikalplus.png",
+		url: "https://vertikalplus.cz/",
+		title: "VERTIKAL PLUS s.r.o.",
+		pins: ["dev"],
+		description:
+			"Tvorba webu pro firmu Vertikal Plus s.r.o., s administrátorským prostředím a dynamickým generováním obsahu.",
+	},
+	6: {
 		imageUrl: "/projects/seaview.png",
 		url: "https://seaviewmandre.cz/",
 		title: "Seaview Mandre - Chorvatsko",
 		pins: ["dev"],
 		description:
 			"Web pro pronájem apartmánů v Chorvatsku, s rezervačním systémem a administrátorským prostředím.",
-	},
-	6: {
-		imageUrl: "/projects/7ma.png",
-		url: "https://7ma.cz/",
-		title: "7ma.cz solární systémy a fotovoltaiky",
-		pins: ["dev"],
-		description:
-			"Web pro společnost 7ma, s.r.o. s e-shopem s grafickými podklady od grafika z firmy Kapsi.",
 	},
 };
