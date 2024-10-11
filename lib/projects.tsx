@@ -40,7 +40,7 @@ export const projects: ProjectsObj = {
 		title: "Stránka pro bojové umění Kajukenbo",
 		pins: ["dev"],
 		description:
-			"Stránky pro český spolek bojového umění kajukenbo, s administrátorským prostředím a dynamickým generováním obsahu.",
+			"Stránky pro český spolek bojového umění kajukenbo, s e-shopem a administrátorským prostředím.",
 	},
 	5: {
 		imageUrl: "/projects/vertikalplus.png",
