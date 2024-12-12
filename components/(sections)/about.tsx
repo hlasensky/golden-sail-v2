@@ -35,7 +35,7 @@ function About() {
 			</h2>
 			<div className="mx-auto w-[70vw] sm:pl-6 text-base sm:text-2xl">
 				<Balancer>
-					Jmenuji se Tomáš Hlásenský a jsem student a webový tvůrce a designér
+					Jmenuji se Tomáš Hlásenský jsem student, webový tvůrce a designér
 					<span className="text-gold">.</span> Neustále hledám nové zkušenosti a znalosti
 					<span className="text-gold">,</span> které mohu zúročit v nových projektech
 					<span className="text-gold">.</span> Mé silné stránky zahrnují chuť se posouvat
